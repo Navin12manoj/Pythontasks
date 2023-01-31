@@ -1,0 +1,14 @@
+
+n=input("Enter the Number")
+l=len(n)
+n=int(n)
+a=n
+strong=0
+for i in range(l+1):
+b=a%10
+a=a/10
+strong=strong+(b**1)
+if (arm !=n):
+ print("It is a not an Armstrong)
+else:
+ print("It is a not an Armstrong)
